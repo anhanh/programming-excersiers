@@ -13,10 +13,10 @@ class Test {
     func runTest() {
         
         print("Enter input")
-        let x = Int(readLine()!)!
-        let y = Int(readLine()!)!
+        let a = Int(readLine()!)!
+        let b = Int(readLine()!)!
         
-        print(x+y)
+        print(a+b)
         
     }
 }

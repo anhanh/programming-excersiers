@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC06DE6820823959002A9BA9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06DE6720823959002A9BA9 /* main.swift */; };
-		CC06DE6F20823C18002A9BA9 /* Simple Array Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06DE6C20823B4B002A9BA9 /* Simple Array Sum.swift */; };
+		CC06DE7120824325002A9BA9 /* Compare the Triplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06DE7020824325002A9BA9 /* Compare the Triplets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,7 @@
 		CC06DE6720823959002A9BA9 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CC06DE6A20823A67002A9BA9 /* Solve Me First.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Solve Me First.swift"; sourceTree = "<group>"; };
 		CC06DE6C20823B4B002A9BA9 /* Simple Array Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Simple Array Sum.swift"; sourceTree = "<group>"; };
+		CC06DE7020824325002A9BA9 /* Compare the Triplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Compare the Triplets.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 			children = (
 				CC06DE6A20823A67002A9BA9 /* Solve Me First.swift */,
 				CC06DE6C20823B4B002A9BA9 /* Simple Array Sum.swift */,
+				CC06DE7020824325002A9BA9 /* Compare the Triplets.swift */,
 			);
 			path = "Warmup Challenges";
 			sourceTree = "<group>";
@@ -134,7 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC06DE6820823959002A9BA9 /* main.swift in Sources */,
-				CC06DE6F20823C18002A9BA9 /* Simple Array Sum.swift in Sources */,
+				CC06DE7120824325002A9BA9 /* Compare the Triplets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

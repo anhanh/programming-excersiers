@@ -7,3 +7,31 @@
 //
 
 import Foundation
+
+class Test {
+    
+    func runTest() {
+        
+        print("Enter input")
+        
+        
+        let a = Int(readLine()!)!
+        var array = [Int]()
+        var sum = 0
+        
+        for i in 0..<a {
+            print("Enter \(i+1) number")
+            let b = Int(readLine()!)!
+            array.append(b)
+        }
+        
+        for i in 0..<array.count {
+            sum += array[i]
+        }
+
+        
+        print(sum)
+        
+    }
+}
+
