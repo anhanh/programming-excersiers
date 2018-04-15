@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC06DE6820823959002A9BA9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06DE6720823959002A9BA9 /* main.swift */; };
-		CC06DE7320836121002A9BA9 /* A Very Big Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06DE7220836121002A9BA9 /* A Very Big Sum.swift */; };
+		CC06DE8D2083F017002A9BA9 /* Big Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06DE8C2083F017002A9BA9 /* Big Sorting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,12 +26,14 @@
 /* Begin PBXFileReference section */
 		CC06DDA8208215D1002A9BA9 /* HackerRankSolution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankSolution; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC06DE6720823959002A9BA9 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		CC06DE6A20823A67002A9BA9 /* Solve Me First.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Solve Me First.swift"; sourceTree = "<group>"; };
-		CC06DE6C20823B4B002A9BA9 /* Simple Array Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Simple Array Sum.swift"; sourceTree = "<group>"; };
-		CC06DE7020824325002A9BA9 /* Compare the Triplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Compare the Triplets.swift"; sourceTree = "<group>"; };
-		CC06DE7220836121002A9BA9 /* A Very Big Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A Very Big Sum.swift"; sourceTree = "<group>"; };
-		CC06DE7420836525002A9BA9 /* Mini-Max Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mini-Max Sum.swift"; sourceTree = "<group>"; };
-		CC06DE762083746B002A9BA9 /* Birthday Cake Candles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Birthday Cake Candles.swift"; sourceTree = "<group>"; };
+		CC06DE7E2083EFAB002A9BA9 /* A Very Big Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "A Very Big Sum.swift"; sourceTree = "<group>"; };
+		CC06DE7F2083EFAB002A9BA9 /* Birthday Cake Candles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Birthday Cake Candles.swift"; sourceTree = "<group>"; };
+		CC06DE802083EFAB002A9BA9 /* Compare the Triplets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Compare the Triplets.swift"; sourceTree = "<group>"; };
+		CC06DE812083EFAB002A9BA9 /* Mini-Max Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mini-Max Sum.swift"; sourceTree = "<group>"; };
+		CC06DE822083EFAB002A9BA9 /* Simple Array Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Simple Array Sum.swift"; sourceTree = "<group>"; };
+		CC06DE832083EFAB002A9BA9 /* Solve Me First.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Solve Me First.swift"; sourceTree = "<group>"; };
+		CC06DE842083EFAB002A9BA9 /* Time Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Time Conversion.swift"; sourceTree = "<group>"; };
+		CC06DE8C2083F017002A9BA9 /* Big Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Big Sorting.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,21 +66,39 @@
 		CC06DDAA208215D1002A9BA9 /* HackerRankSolution */ = {
 			isa = PBXGroup;
 			children = (
-				CC06DE6920823A67002A9BA9 /* Warmup Challenges */,
+				CC06DE7B2083EFAB002A9BA9 /* Algorithms */,
 				CC06DE6720823959002A9BA9 /* main.swift */,
 			);
 			path = HackerRankSolution;
 			sourceTree = "<group>";
 		};
-		CC06DE6920823A67002A9BA9 /* Warmup Challenges */ = {
+		CC06DE7B2083EFAB002A9BA9 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				CC06DE6A20823A67002A9BA9 /* Solve Me First.swift */,
-				CC06DE6C20823B4B002A9BA9 /* Simple Array Sum.swift */,
-				CC06DE7020824325002A9BA9 /* Compare the Triplets.swift */,
-				CC06DE7220836121002A9BA9 /* A Very Big Sum.swift */,
-				CC06DE7420836525002A9BA9 /* Mini-Max Sum.swift */,
-				CC06DE762083746B002A9BA9 /* Birthday Cake Candles.swift */,
+				CC06DE7C2083EFAB002A9BA9 /* Sorting */,
+				CC06DE7D2083EFAB002A9BA9 /* Warmup Challenges */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		CC06DE7C2083EFAB002A9BA9 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				CC06DE8C2083F017002A9BA9 /* Big Sorting.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		CC06DE7D2083EFAB002A9BA9 /* Warmup Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				CC06DE7E2083EFAB002A9BA9 /* A Very Big Sum.swift */,
+				CC06DE7F2083EFAB002A9BA9 /* Birthday Cake Candles.swift */,
+				CC06DE802083EFAB002A9BA9 /* Compare the Triplets.swift */,
+				CC06DE812083EFAB002A9BA9 /* Mini-Max Sum.swift */,
+				CC06DE822083EFAB002A9BA9 /* Simple Array Sum.swift */,
+				CC06DE832083EFAB002A9BA9 /* Solve Me First.swift */,
+				CC06DE842083EFAB002A9BA9 /* Time Conversion.swift */,
 			);
 			path = "Warmup Challenges";
 			sourceTree = "<group>";
@@ -141,8 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC06DE7320836121002A9BA9 /* A Very Big Sum.swift in Sources */,
 				CC06DE6820823959002A9BA9 /* main.swift in Sources */,
+				CC06DE8D2083F017002A9BA9 /* Big Sorting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
