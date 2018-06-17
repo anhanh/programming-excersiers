@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC06DE6820823959002A9BA9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06DE6720823959002A9BA9 /* main.swift */; };
-		CC06DE8D2083F017002A9BA9 /* Big Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06DE8C2083F017002A9BA9 /* Big Sorting.swift */; };
+		CC06DE8F20842A49002A9BA9 /* Intro to Tutorial Challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06DE8E20842A49002A9BA9 /* Intro to Tutorial Challenges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +34,7 @@
 		CC06DE832083EFAB002A9BA9 /* Solve Me First.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Solve Me First.swift"; sourceTree = "<group>"; };
 		CC06DE842083EFAB002A9BA9 /* Time Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Time Conversion.swift"; sourceTree = "<group>"; };
 		CC06DE8C2083F017002A9BA9 /* Big Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Big Sorting.swift"; sourceTree = "<group>"; };
+		CC06DE8E20842A49002A9BA9 /* Intro to Tutorial Challenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Intro to Tutorial Challenges.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				CC06DE8C2083F017002A9BA9 /* Big Sorting.swift */,
+				CC06DE8E20842A49002A9BA9 /* Intro to Tutorial Challenges.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -92,12 +94,12 @@
 		CC06DE7D2083EFAB002A9BA9 /* Warmup Challenges */ = {
 			isa = PBXGroup;
 			children = (
-				CC06DE7E2083EFAB002A9BA9 /* A Very Big Sum.swift */,
-				CC06DE7F2083EFAB002A9BA9 /* Birthday Cake Candles.swift */,
-				CC06DE802083EFAB002A9BA9 /* Compare the Triplets.swift */,
-				CC06DE812083EFAB002A9BA9 /* Mini-Max Sum.swift */,
-				CC06DE822083EFAB002A9BA9 /* Simple Array Sum.swift */,
 				CC06DE832083EFAB002A9BA9 /* Solve Me First.swift */,
+				CC06DE822083EFAB002A9BA9 /* Simple Array Sum.swift */,
+				CC06DE812083EFAB002A9BA9 /* Mini-Max Sum.swift */,
+				CC06DE7E2083EFAB002A9BA9 /* A Very Big Sum.swift */,
+				CC06DE802083EFAB002A9BA9 /* Compare the Triplets.swift */,
+				CC06DE7F2083EFAB002A9BA9 /* Birthday Cake Candles.swift */,
 				CC06DE842083EFAB002A9BA9 /* Time Conversion.swift */,
 			);
 			path = "Warmup Challenges";
@@ -162,7 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC06DE6820823959002A9BA9 /* main.swift in Sources */,
-				CC06DE8D2083F017002A9BA9 /* Big Sorting.swift in Sources */,
+				CC06DE8F20842A49002A9BA9 /* Intro to Tutorial Challenges.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
